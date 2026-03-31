@@ -37,33 +37,41 @@ Drama and international content dominate Netflix, showing a strong focus on glob
 
 
 ### Top 10 Countries
-![Top Countries](images/chart2_top10_countries.png)
+![Top Countries](chart2_top10_countries.png)
 The United States produces the highest number of titles, followed by other major content-producing countries.
 
 
 ### Rating Breakdown by Type
-![Rating vs Type](images/chart3_stacked_rating_type.png)
+![Rating vs Type](chart3_stacked_rating_type.png)
 Movies and TV shows differ in rating distributions, reflecting different audience targets.
 
 
 ### Movie vs TV by Genre
-![Genre Type](images/chart4_100pct_genre_type.png)
+![Genre Type](chart4_100pct_genre_type.png)
 Some genres are dominated by movies, while others are more common in TV shows.
 
 
 ### Content Over Decades
-![Decade](images/chart7_titles_per_decade.png)
+![Decade](chart5_titles_per_decade.png)
 Content production has significantly increased in recent decades, especially after 2000.
 
 
 ### Top Directors
-![Directors](images/chart8_top_directors.png)
+![Directors](/chart6_top_directors.png)
 A few directors contribute multiple titles, indicating recurring collaborations.
 
 
-### Content Added Over Time
-![Year Added](images/chart9_titles_added_by_year.png)
+### Movies vs TV Shows by Year Added
+![Year Added](chart7_titles_added_by_year.png)
 Netflix content grew rapidly in recent years, reflecting platform expansion.
+
+## Count by Genre (Top 8) grouped by Rating
+![Genre vs Rating](chart8_grouped_genre_rating.png)
+This chart shows the top 8 most popular genres on Netflix and how they are distributed across different ratings (G, PG, R, etc.).
+
+## Diverging Bars: Genre Deviation from Mean
+![Deviation](chart9_diverging_genre_dev.png)
+This plot highlights how each genre’s count of titles deviates from the average across all genres.
 
 
 ### Movie Duration Analysis
@@ -80,7 +88,7 @@ Most movies fall within a typical duration range, with a few extreme outliers.
 * Most movies follow a standard duration range
 
 
-## 📁 Project Structure
+## Project Structure
 netflix-data-analysis/
 │
 ├── data/
@@ -91,14 +99,12 @@ netflix-data-analysis/
 
 
 ## How to Run
-
 Bash
 pip install -r requirements.txt
 jupyter notebook
 
 
 ## Future Work
-
 * Build recommendation system
 * Perform clustering on content types
 * Predict popularity or ratings
