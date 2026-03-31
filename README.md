@@ -32,7 +32,7 @@ The goal is to understand how Netflix content is distributed and how it has evol
 ## 📊 Key Visualizations & Insights
 
 ### Genre Distribution
-![Genre Distribution](images/chart1_genre_counts_bar.png)
+![Genre Distribution](chart1_genre_counts_bar.png)
 Drama and international content dominate Netflix, showing a strong focus on globally appealing content.
 
 
