@@ -75,7 +75,7 @@ This plot highlights how each genre’s count of titles deviates from the averag
 
 
 ### Movie Duration Analysis
-![Duration](images/boxplot_durations.png)
+![Duration](boxplot_durations.png)
 Most movies fall within a typical duration range, with a few extreme outliers.
 
 
